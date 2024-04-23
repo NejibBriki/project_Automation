@@ -17,7 +17,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
  * files, step definitions, reporting integration.
  */
 @CucumberOptions(features = {"src/spec/features"}, 
-					plugin = {"pretty", "html:target/cucumber-report.html", "json:target/cucumber.xml", "json:target/cucumber.xml", "jar:target/cucumber.jar" }, 
+					plugin = {"pretty", "html:target/cucumber-report.html", "json:target/cucumber.xml", "json:target/cucumber.xml"}, 
 					tags = ("@compteValide"), 
 					//glue = {"step_definitions"}, 
 					monochrome = false,
