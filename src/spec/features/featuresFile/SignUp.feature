@@ -36,4 +36,4 @@ Feature: Creation d'un nouveau utilisateur
 
     Examples: 
       | nom   | email                  | password  | firstName | lastName | company | adresse                         | adresse2                        | state  | city   | zipCode | tel      |
-      | nejib | nejib.brik03@gmail.com | Azerty123 | Nejib     | Briki    | Ariana  | 02 , rue ali bouchoucha, Ariana | 02 , rue ali bouchoucha, Ariana | Ariana | Ariana |    2080 | 22967516 |
+      | nejib | nejib.bri@gmail.com | Azerty123 | Nejib     | Briki    | Ariana  | 02 , rue ali bouchoucha, Ariana | 02 , rue ali bouchoucha, Ariana | Ariana | Ariana |    2080 | 22967516 |
