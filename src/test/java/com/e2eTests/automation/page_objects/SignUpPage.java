@@ -90,7 +90,6 @@ public class SignUpPage extends BasePage {
 	private static WebElement continuBtn;
 	
 	@FindBy(how = How.XPATH, using = "//*[@id=\"header\"]/div/div/div/div[2]/div/ul/li[10]/a/b")
-	                                 //*[@id="header"]/div/div/div/div[2]/div/ul/li[10]/a/b
 	private static WebElement nameLoged;
 	
 	@FindBy(how = How.XPATH, using = "//a[normalize-space()='Delete Account']")

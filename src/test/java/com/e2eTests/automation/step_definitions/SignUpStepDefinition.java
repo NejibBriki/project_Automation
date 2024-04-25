@@ -35,7 +35,7 @@ public class SignUpStepDefinition {
 
 	@Then("page home est bien affiche")
 	public void pageHomeEstBienAffiche() {
-		 validations.checkUrlChange(configFileReader.getProperties("home.url"));
+		 validations.checkChangedURL(configFileReader.getProperties("home.url"));
 		
 	}
 
